@@ -1,0 +1,13 @@
+#ctn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da janela de visualização */
+    margin: 0;
+    width: 300px;
+   }
+   
+   img {
+    width: 60%;
+   }
+   

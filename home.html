@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Genérico</title>
+    <link rel="stylesheet" href="home.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+</head>
+<body>
+     <!-- 
+        but = botão 
+        ctn = container
+        crsl = carrossel
+        ico = ícone
+        BT = buscar texto
+
+        MP = Mais Populares
+        AG = Analgésicos
+        AA = Antialérgicos
+    -->
+     
+    <div id="ctn-header">
+        <img id="ico-ajuda" src="img/btn-ajuda.jpeg" alt="Botão de ajuda. Icone de interrogação com um circulo no fundo">
+
+        <img id="ico-logo" src="img/ico-logo.png" alt="Nossa logo menor">
+
+        <img id="ico-config" src="img/btn-config.jpeg" alt="BotãoEngrenagem de Configurações">
+    </div>
+
+    <div id="ctn-input-buscaTexto">
+        <input id="input-BT" type="search" placeholder="Pesquisar por Medicamento" name="Barra de procura" id="ipt-home">
+        <!--  <button id="btn-lupa"><img id="ico-lupa" src="img/ico-lupa.png" alt="Botão para pesquisar. Icone de lupa ao lado direito da caixa de pesquisa"></button> -->
+    </div>
+
+    <div id="ctn-btn-buscaVoz">
+        <Button id="btn-buscaVoz">Pesquisa Por Voz <img src="img/ico-mic.png" alt="Icone de microfone ao lado direito do nome Pesquisa por voz"></Button>
+    </div>
+
+    <div id="crsl-MP ">
+        <h1>Mais Populares</h1>
+        <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+            <!--       
+                exemplos de itens / são cores solidas. tá no css, lá em baixo
+                <div class="item current-item cyan"></div>
+                <div class="item deeppink"></div>
+                <div class="item turquoise"></div>
+                <div class="item darkblue"></div>
+                <div class="item purple"></div> 
+            -->
+
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="crsl-AG ">
+        <h1>Analgésicos</h1>
+        <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="crsl-AA ">
+        <h1>Antialérgicos</h1>
+        <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            <img src="https://d2lakedouw4zad.cloudfront.net/g-paracetamol-750mg-20cpr-uniao-quimica-65447.png" alt="Caixa do Medicamento Indicado" class="item current-item">
+            
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="ctn-footer">
+        <img src="img/ico-home.jpeg" alt="Botão de Tela Inicial. Icone de casa.">
+        <img src="img/ico-historico.jpeg" alt="Botão de Histórico. Icone de Relogio com seta circular no sentido antihorário.">
+        <img src="img/ico-acess.jpeg" alt="Botão de acessibilidade. Icone de um boneco com as mãos abertas.">
+    </div>
+    
+</body>
+</html>

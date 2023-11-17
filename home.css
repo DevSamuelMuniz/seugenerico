@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ico-ajuda{
+    width: 34px;
+}
+
+#ico-logo{
+    width: 44px;
+}
+
+#ico-config{
+    width: 36px;
+}
+
+#ctn-header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+#ctn-input-buscaTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-BT{
+    background: none;
+    border-radius: 50px;
+    border-color: #5A5A5A;
+    width: 70%;
+    height: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+}
+
+    #ctn-btn-buscaVoz{
+        display: flex;
+        justify-content: center;
+    }
+
+#btn-buscaVoz{
+    background: #DB471B;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+
+   padding: 10px;
+   padding-right: 40px;
+   padding-left: 50px;
+}
+   #btn-buscaVoz img {
+    order: 1;
+    padding-left: 10px;
+   }
+   
+   #btn-buscaVoz span {
+    text-align: center;
+   }
+   
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    margin: 1em 0;
+    font-family: sans-serif;
+}
+  
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+  
+.gallery-wrapper {
+    overflow-x: auto;
+}
+  
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #DB471B;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+}
+  
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  
+  .item {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+  }
+  
+  .current-item {
+    opacity: 1;
+  }
+
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .gallery-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }
+  
+  .cyan {
+    background: cyan;
+  }
+  
+  .deeppink {
+    background: deeppink;
+  }
+  
+  .turquoise {
+    background: turquoise;
+  }
+  
+  .darkblue {
+    background: darkblue;
+  }
+  
+  .purple {
+    background: purple;
+  }
+  
